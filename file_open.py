@@ -17,5 +17,11 @@ for d in data:
 	if 'good' in d:
 		good.append(d)
 
+good = [d for d in data if 'good' in d]
+
+
+
 print(len(good))
 print(len(good[0]))
+
+
